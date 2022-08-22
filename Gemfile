@@ -9,7 +9,7 @@ gem 'rails', '~> 6.1.6', '>= 6.1.6.1'
 # gem 'sqlite3', '~> 1.4'
 
 # Use postgres as the database for Active Record
-# gem 'pg'
+gem 'pg', '~> 1.4', '>= 1.4.3'
 
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
@@ -31,6 +31,9 @@ gem 'jbuilder', '~> 2.7'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
+
+gem 'devise', '~> 4.8', '>= 4.8.1'
+gem 'bootstrap', '~> 5.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
